@@ -66,7 +66,3 @@ The server will initialize and listen for connections on `http://localhost:5000`
 ## Deployment
 
 This repository is configured for serverless deployment. A `vercel.json` file is included to map incoming API and WebSocket requests correctly through Vercel's Node.js runtime environment. Ensure that your cloud provider has the correct environment variables securely injected before deployment.
-
-```
-
-```
