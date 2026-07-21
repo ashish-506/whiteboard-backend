@@ -29,7 +29,9 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "https://whiteboard-frontend-ruby.vercel.app/",
+      "https://whiteboard-frontend-ruby.vercel.app",
+      "https://whiteboard-frontend-git-main-ashish-506s-projects.vercel.app",
+      "https://whiteboard-frontend-ktq85tahh-ashish-506s-projects.vercel.app"
     ],
     methods: ["GET", "POST"],
   },
